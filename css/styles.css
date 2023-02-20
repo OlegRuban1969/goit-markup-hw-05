@@ -128,7 +128,7 @@ img {
     display: block;
     content: '';
     position: absolute;
-    width: 48px;
+    width: 100%;
     height: 4px;
     background-color: var(--clr-header-h-f);
     border-radius: 2px;
