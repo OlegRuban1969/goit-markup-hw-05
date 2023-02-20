@@ -118,8 +118,22 @@ img {
 .site-nav .link:hover, .site-nav .link:focus {
     color: var(--clr-header-h-f);
 }
-.site-nav .current {
+.site-nav .current { 
     color: var(--clr-header-h-f)
+}
+.current {
+    position: relative;
+}
+.current::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    background-color: var(--clr-header-h-f);
+    border-radius: 2px;
+    position: absolut;
+    bottom: 0;
 }
 /* хедер-адреса */
 address {
