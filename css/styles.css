@@ -634,6 +634,8 @@ address {
     position: absolute;
     right: 24px;
     top: 24px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     cursor: pointer;
     background-color: #E7E9FC;
